@@ -509,7 +509,7 @@ void SampleViewer::Display() {
   //get user sphere coords here if have tracked
   if (users.getSize() > 0) {
       if(users[0].getSkeleton().getState() == nite::SKELETON_TRACKED) {
-        
+
 
         NitePoint3f leftSholderNite = users[0].getSkeleton()
           .getJoint(nite::JOINT_LEFT_SHOULDER)
